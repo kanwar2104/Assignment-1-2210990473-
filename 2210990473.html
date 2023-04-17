@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Chitkara University</title>
+</head>
+<style>
+    
+</style>
+<body>
+<div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+    Chitkara University
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="#home" target="_blank">Home</a>
+    <a href="#Courses" target="_blank">Courses</a>
+    <a href="#services" target="_blank">Service</a>
+    <a href="#form" target="_blank">Registration</a>
+  </div>
+
+  <div class="page1" id="home">
+    <div class="page1-content">
+        <div class="left-content">
+            <h1>Chitkara University</h1>
+            Located 30 kms from <b>Chandigarh</b>, Chitkara University offers a world of learning that will help you reach your goals. Choose from our varied industry endorsed programs. Learn from an outstanding faculty at our state-of-the-art teaching facilities. Explore unlimited opportunities to get placed with one of the 1500+ campus recruiters and meet other students with dreams as big as yours.
+        </div>
+        <div class="right-content"><img src="page1-img.jpeg" alt="" class="page1-img"></div>
+    </div>
+  </div>
+  <div class="page2" id ="Courses">
+    <h2>Courses:</h2>
+    <table border="1" width="50%" height="400">
+        <tr>
+          <th>Engineering</th>
+          <th>Science</th>
+          <th>Commerce</th>
+          <th>Others</th>
+        </tr>
+        <tr>
+          <td>B-Tech in CSE</td>
+          <td>Bsc in Maths</td>
+          <td>BBA</td>
+          <td>Depoma in IT</td>
+        </tr>
+        <tr>
+          <td>B-Tech in ME</td>
+          <td>Bsc in Chemistry</td>
+          <td>MBA in Marketing</td>
+          <td>Diploma in civil</td>
+        </tr>
+        <tr>
+            <td>B-Tech in CHE</td>
+            <td>Bsc in Physics</td>
+            <td>MBA in Finance</td>
+            <td>NCC</td>
+          </tr>
+      </table>
+  </div>
+  <div class="page3"id ="services">
+    <div class="box">
+        <h1>
+            Others Service:</h1>
+        <ol>
+          <li>Bus</li>
+          <li>Career counselling</li>
+          <li>Sports</li>
+          <li>Hostels</li>
+          <li>Restaurants</li>
+        </ol>
+      </div>
+  </div>
+  <div class="page4" id="form">
+    <h1>Registration Form</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="district">District:</label>
+		<input type="text" id="district" name="district" required><br>
+
+		<label for="state">State:</label>
+		<input type="text" id="state" name="state" required><br>
+
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" required><br>
+
+		<label for="dob">DOB:</label>
+		<input type="date" id="dob" name="dob" required><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="gender">Gender:</label>
+		<input type="radio" id="male" name="gender" value="male" checked>
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br>
+
+        <label for="message">Your special Enquery:</label>
+		<textarea id="message" name="message" rows="5"></textarea>
+
+
+		<input type="submit" value="Submit">
+	</form>
+
+  </div>
+
+</body>
+</html>
